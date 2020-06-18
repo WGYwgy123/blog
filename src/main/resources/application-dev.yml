@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    root: info
+    com.wgy.blog: debug
+  file:
+    name: log/blog-dev.log
+  pattern:
+    console: '%d{yyyy-MM-dd} --- [%thread] --- %-5level --- %logger{50} --- %msg%n'
+    file: '%d{yyyy-MM-dd} === [%thread] === %-5level === %logger{50} === %msg%n'
+server:
+  port: 8080

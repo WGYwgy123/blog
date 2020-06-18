@@ -1,0 +1,5 @@
+2020-04-09 22:11:10.067  INFO 4692 --- [restartedMain] com.wgy.blog.BlogApplication             : Starting BlogApplication on DESKTOP-QP5M5HV with PID 4692 (D:\Programs\JetBrains\Idea Sources\University\SpringBoot实战\blog\target\classes started by Gary in D:\Programs\JetBrains\Idea Sources\University\SpringBoot实战\blog)
+2020-04-09 22:11:10.069  INFO 4692 --- [restartedMain] com.wgy.blog.BlogApplication             : The following profiles are active: pro
+2020-04-09 22:11:11.755  WARN 4692 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-09 22:11:11.918  WARN 4692 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-09 22:11:12.202  INFO 4692 --- [restartedMain] com.wgy.blog.BlogApplication             : Started BlogApplication in 2.412 seconds (JVM running for 3.008)
